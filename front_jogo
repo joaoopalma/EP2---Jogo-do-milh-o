@@ -160,6 +160,14 @@ questoes = [{'titulo': 'Qual o resultado da operação 57 + 32?',
         ]
 
 
+class bcolors:
+    roxo = '\033[0;35m'
+    azul_claro = '\033[1;36m'
+    azul = '\033[1;34m'
+    verde = '\033[1;92m'
+    amarelo = '\033[1;33m'
+    laranja = '\033[1;32m'
+    vermelho = '\033[0;31m'
 
 print('Olá! Você está na Fortuna DesSoft e terá a oportunidade de enriquecer!\n')
 nome = input('Qual seu nome? ')
